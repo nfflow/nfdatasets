@@ -1,5 +1,7 @@
 [core]
     autostage = true
-    remote = storage
+    remote = nfdatastore
 ['remote "storage"']
     url = s3://nfdatastore/dvcstore
+['remote "nfdatastore"']
+    url = /tmp/dvcstore
